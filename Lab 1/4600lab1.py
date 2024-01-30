@@ -47,7 +47,7 @@ def matrixVectorProduct(A, x):
 #Computes value of matrix multiplication through the default NumPy function
 print(np.matmul(A, x))
 
-
+#Compares value of my mat mul funciton to the numpy version to test correctness
 print(matrixVectorProduct(A, x))
 
 
