@@ -3,6 +3,7 @@ import numpy.linalg as la
 import math
 
 
+#Driver function helps call the functions previously implemented
 def driver():
     n = 100
     x = np.linspace(0, np.pi, n)
