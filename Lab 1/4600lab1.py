@@ -20,8 +20,7 @@ def driver():
     return
 
 
-#   Computes the dot product of the n x 1 vectors x and y
-
+#dot product function computes dot product of vectors x, y with dim n x 1 
 def dotProduct(x, y, n):
     dp = 0
     for j in range(n):
