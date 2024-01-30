@@ -1,3 +1,5 @@
+Dyer
+
 
 This repository contains the files for APPM 4600 Lab 1 and the APPM 4600 HW1
 
