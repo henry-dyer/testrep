@@ -20,7 +20,7 @@ def driver():
     return
 
 
-#dot product function computes dot product of vectors x, y with dim n x 1 
+#dot product function computes dot product of vectors x, y with dim n x 1
 def dotProduct(x, y, n):
     dp = 0
     for j in range(n):
@@ -31,6 +31,8 @@ def dotProduct(x, y, n):
 A = np.array([[1, 2, 3, 4], [4, 5, 4, 10]])
 x = np.array([1, 2, 10, 35])
 
+
+#Computes matrix vector multiplication for matrix A of size m x n and vector x of size n x 1
 def matrixVectorProduct(A, x):
     if A.shape[1] != x.shape[0]:
         print('Incompatible System')
